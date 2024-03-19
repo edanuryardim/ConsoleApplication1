@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+project(ConsoleApplication1)
+
+
+add_executable(ConsoleApplication1 main.cpp MovingObject.cpp FallingObject.cpp Bullet.cpp)
+
+target_include_directories(ConsoleApplication1 PUBLIC include)
